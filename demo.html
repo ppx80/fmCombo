@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>PpxForm</title>
+    <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="js/ppxforms.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+	
+</head>
+<body>
+<div style="padding:20px;">
+<form name="frm" id="frm" action="list.html">
+<table class="frm-cnt">
+	
+	
+	<tr>
+		<td><label>Testo:</label></td>
+		<td>
+			<span class="frcheckbox"></span>
+			<input type="checkbox" name="frm1.1" id="frm1.1" value="1" class="none"/>
+		</td>
+	</tr>
+	<tr>
+		<td><label>Oggetto:</label></td>
+		<td>
+			<!--<span style="display:inline-block;position:relative">-->
+			<select name="idOggetto" id="idOggetto">
+				<option value="-1">Seleziona</option>				
+				<option value="-2">Prova</option>				
+			</select>
+			<!--<span style="position:absolute;top:0;right:0;background-color:#ccc;font-weight:bold;">v</span>			
+			</span>-->
+		</td>
+	</tr>
+	<tr>
+		<td><label>Famiglia:</label></td>
+		<td>
+			
+			<select name="idFamiglia" id="idFamiglia">
+				<option value="-1">Seleziona</option>				
+				<option value="-2">Prova</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td><label>Servizio:</label></td>
+		<td>
+			
+			<select name="idServizio" id="idServizio">
+				<option value="-1">Seleziona</option>
+				<option value="-2">Prova</option>				
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td><label>TipoOggetto:</label></td>
+		<td>			
+			<select name="idTipoOggetto" id="idTipoOggetto">
+				<option value="-1">Seleziona</option>
+				<option value="-2">Prova</option>				
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td><label>frm3:</label></td>
+		<td><input type="text" name="frm3" id="frm3" class="input-text br3"/></td>
+	</tr>
+	<tr>
+		<td><label>frm4:</label></td>
+		<td><input type="text" name="frm4" id="frm4" class="input-text br3" title="Freccia su aumenta, freccia giù diminuisce"/></td>
+	</tr>
+	<tr>
+		<td><label>frm5:</label></td>
+		<td><input type="text" name="frm5" id="frm5" class="input-text br3"/></td>
+	</tr>
+	<tr>
+		<td><label>frm6:</label></td>
+		<td><input type="text" name="frm6" id="frm6" class="input-text br3"/></td>
+	</tr>		
+</table>
+</form>
+</div>
+</body>	
+</html>
